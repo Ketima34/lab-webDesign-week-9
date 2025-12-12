@@ -1,11 +1,11 @@
 function challenge1(width,height){
     let rectangleString ='';
-    for(let i = height0;i<height ;i++) {
-        for(let j =width;j<width;j++){
+    for(let i =0;i<height ;i++) {
+        for(let j =0;j<width;j++){
             rectangleString +="*";
 
         }
-        rectangleString += "\n";
+        rectangleString +="\n";
     }
     return rectangleString;
 }
