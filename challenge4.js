@@ -9,4 +9,5 @@ const countChar =( text,target )=> {
 }
 
 let Text= "hello world";
-console.log(countChar(Text,o));
+let Target ='o';
+console.log(countChar(Text,Target));
